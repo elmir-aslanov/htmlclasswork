@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white min-h-screen">
+    <main class="min-h-screen flex items-center justify-center px-6">
+        <div class="w-full max-w-3xl">
+            <h1 id="welcome" class="text-4xl font-bold text-gray-900"></h1>
+
+            <button id="logoutBtn"
+                class="mt-6 rounded-md bg-blue-600 px-6 py-2.5 text-white hover:bg-blue-700 transition">
+                Logout
+            </button>
+        </div>
+    </main>
+
+    <script>
+        const welcomeEl = document.getElementById("welcome");
+        const logoutBtn = document.getElementById("logoutBtn");
+
+        const currentUser = JSON.parse(localStorage.getItem("currentUser"));
+
+        // if not logged in -> go back to login
+        if (!currentUser) {
+            window.location.href = "login.html";
+        } else {
+            welcomeEl.textContent = `Welcome ${currentUser.username}`;
+        }
+
+        logoutBtn.addEventListener("click", () => {
+            localStorage.removeItem("currentUser");
+            window.location.href = "login.html";
+        });
+    </script>
+</body>
+
+</html>

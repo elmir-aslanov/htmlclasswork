@@ -1,0 +1,28 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "title": "Mənim ilk bloqum",
+            "body": "Bu mənim ilk blog yazımdır. Burada şəxsi fikirlərimi və təcrübələrimi paylaşacağam.",
+            "author": "Əli Məmmədov"
+        },
+        {
+            "id": 2,
+            "title": "JavaScript-ə giriş",
+            "body": "JavaScript veb proqramlaşdırmada ən çox istifadə olunan proqramlaşdırma dillərindən biridir.",
+            "author": "Aysel Həsənova"
+        },
+        {
+            "id": 3,
+            "title": "Frontend nədir?",
+            "body": "Frontend istifadəçinin birbaşa gördüyü və qarşılıqlı əlaqədə olduğu hissədir.",
+            "author": "Rəşad Əliyev"
+        },
+        {
+            "id": 4,
+            "title": "JSON Server ilə işləmək",
+            "body": "JSON Server saxta API yaratmaq üçün çox rahat və sürətli bir vasitədir.",
+            "author": "Nigar Quliyeva"
+        }
+    ]
+}
