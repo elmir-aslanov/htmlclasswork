@@ -1,0 +1,75 @@
+.client-header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.client-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.client-header .logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.client-header nav {
+  display: flex;
+  gap: 20px;
+}
+
+.client-header nav a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.client-header nav a:hover,
+.client-header nav a.active {
+  color: #6c63ff;
+}
+
+.client-header .actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.client-header .favorites-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #555;
+  text-decoration: none;
+}
+
+.client-header .heart-icon {
+  color: #ff4757;
+}
+
+.client-header .admin-link {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+
+.client-header .logo a {
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}

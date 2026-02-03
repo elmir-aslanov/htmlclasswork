@@ -1,0 +1,132 @@
+:root {
+  --primary-color: #4caf50;
+  --secondary-color: #2c3e50;
+  --bg-color: #fff;
+  --text-color: #333;
+  --white: #fff;
+  --gray: #e9ecef;
+  --dark-heading: #1a1a1a;
+}
+
+body {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.client-header {
+  background-color: transparent;
+  padding: 20px 0;
+  position: relative;
+  z-index: 1000;
+}
+
+.client-header .logo a {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #000;
+  text-decoration: none;
+}
+
+.client-header nav a {
+  color: #333;
+  font-weight: 500;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.client-header nav a.active,
+.client-header nav a:hover {
+  color: var(--primary-color);
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 20px;
+  min-height: 80vh;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.subtitle {
+  color: var(--primary-color);
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.buy-btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 14px 34px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.logos-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.about-book-section {
+  display: flex;
+  gap: 50px;
+  padding: 100px 20px;
+}
+
+.about-book-image img {
+  max-width: 300px;
+}
+
+.client-footer {
+  padding: 40px 0;
+  border-top: 1px solid #eee;
+  text-align: center;
+}
+
+.home-page .hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page .hero-image img {
+  width: 100%;
+  max-width: 520px;   
+  height: auto;
+  max-height: 520px;  
+  object-fit: cover;
+  display: block;
+}
+  

@@ -1,0 +1,11 @@
+{
+    "songs": [
+        {
+            "id": 1,
+            "title": "YouTube Song",
+            "artist": "Some Artist",
+            "youtubeId": "K4DyBUG242c",
+            "type": "youtube"
+        }
+    ]
+}
